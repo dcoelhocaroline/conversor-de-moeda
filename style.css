@@ -1,0 +1,93 @@
+header, body {
+    font-family: 'Roboto Mono',monospace;
+    background-color: #141414;
+    background-size: 100vh;
+    padding: 20px;
+    color:#ffffff;
+}
+
+.page-title {
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.page-logo {
+    margin:auto;
+    text-align: center;
+    width: 200px;
+    display:block;
+    
+}
+
+.page-subtitle{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.conversor{
+    margin: auto;
+    text-align: center;
+}
+
+select{
+    background-color: #fada06;
+    border: none;
+    padding: 8px;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+}
+
+
+input {
+    -webkit-appearance: textfield;
+    transition: 0.3s ease;
+    border: none;
+    padding: 8px;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+    margin-top: 16px;
+}
+
+input:focus-visible {
+    transition: 0.3s;
+    outline: none;
+    box-shadow: 6px 6px #fada06;
+}
+
+button {
+    margin: 16px;
+    transition: 0.3s ease;
+    background-color: #fada06;
+    width: auto;
+    padding: 8px;
+    border: none;
+    font-family: 'Roboto Mono',monospace;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+button:hover{
+    transition: 0.3s ease;
+    box-shadow: 6px 6px #ffffff;
+    cursor:pointer;
+}
+
+button:active, :focus-visible{
+    transition: 0.3s ease;
+    box-shadow: none;
+    cursor:pointer;
+}
